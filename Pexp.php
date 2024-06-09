@@ -203,7 +203,7 @@ function show_path(val) {
       </form>
       <ul class="navbar-nav px-3">
         <li class="nav-item text-nowrap">
-          <a class="nav-link" href="#">.</a>
+          <a class="nav-link" href="https://github.com/vFireheart/Pexp/" target="_blank">.</a>
         </li>
       </ul>
     </nav>
