@@ -59,7 +59,7 @@ function files($dir) {
 function path_link($val) {
 	return preg_replace('/([\\\])/', '${1}${1}', $val);
 }
-function sizeBytes($bytes, $precision = 2) { 
+function file_size($bytes, $precision = 2) { 
     $units = array('Bs', 'Kb', 'MB', 'GB', 'TB'); 
    
     $bytes = max($bytes, 0); 
@@ -307,7 +307,7 @@ function show_path(val) {
    } catch (Exception $e) {
 	  echo $e->getMessage();
    }
-   echo sizeBytes($fsize); 
+   echo file_size($fsize); 
 				   ?></td>
                   <td align="right"><?php 
    $fdate = "";
